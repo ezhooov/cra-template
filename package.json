@@ -2,6 +2,17 @@
   "name": "webpack-template",
   "version": "0.0.1",
   "description": "react app template using webpack",
-  "main": "index.js",
-  "license": "MIT"
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "serve": "serve build"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
