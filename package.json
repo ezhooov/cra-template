@@ -1,0 +1,7 @@
+{
+  "name": "webpack-template",
+  "version": "0.0.1",
+  "description": "react app template using webpack",
+  "main": "index.js",
+  "license": "MIT"
+}
